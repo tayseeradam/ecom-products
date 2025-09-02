@@ -50,7 +50,7 @@ interface Props {
           )};
           <div className="flex items-center space-x-4">
             <Button variant={"outline"} onClick={() => removeItem(product.id)}> -</Button>
-              <span>0</span>
+              <span className="text-lg font-semibold">{quantity}</span>
             <Button variant={"outline"} onClick={onAddItem}>+</Button>
           </div>
             </div>
